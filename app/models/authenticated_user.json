@@ -1,0 +1,22 @@
+{
+  "preferred_name" :  null,
+  "deny_login": "N",
+  "company": null,
+  "title": null,
+  "vendor_person_id": null,
+  "username": "username",
+  "last_replicated_at": null,
+  "failed_login_count": 0,
+  "email_addresses": [
+  {"address": "daniel_rodriguez@mckinsey.com"}
+],
+"first_name": "amit",
+"last_name": "bhanote",
+"locked_at": null,
+"groups": [
+
+],
+"eid": 28120,
+"needs_to_change_password": "N",
+"fmno": null
+}
