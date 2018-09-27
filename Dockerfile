@@ -7,5 +7,7 @@ WORKDIR .
 COPY . .
 
 RUN bundle install
-CMD rspec
 
+RUN rake db:migrate RAILS_ENV=test
+
+CMD rspec
