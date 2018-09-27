@@ -3,12 +3,10 @@ require 'rails_helper'
 RSpec.describe AuthenticationController, type: @controller do
   describe "#authenticate" do
     before do
-
+      @user = create(:user, name: "username", password: "password")
     end
     it "returns error is username or password is not passed" do
       post :authenticate, {:username => 'username'}
-
-      json_response = JSON.parse(response.body)
 
       expect(response).to have_http_status(:error)
     end

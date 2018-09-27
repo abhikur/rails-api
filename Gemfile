@@ -24,6 +24,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem "factory_bot_rails"
 end
 
 # To use ActiveModel has_secure_password
